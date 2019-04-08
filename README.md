@@ -30,6 +30,9 @@ $ python --version
 # install Flask-RESTful
 pip install Flask-RESTful
 
+# install Flask-JWT
+pip install Flask-JWT
+
 # to find out what was installed
 pip freeze
 
