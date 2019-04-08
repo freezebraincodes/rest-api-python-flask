@@ -39,7 +39,7 @@ $ deactivate
 
 ## Sub Project Directories
 - `first-rest-api`: A basic REST api for a store in demonstrating GET/POST  
-- `item-list-rest-api`: Demonstrating the use of `virtualenv` and 
+- `item-list-rest-api`: Demonstrating the use of `virtualenv` and basic authentication with json web token (jwt)
 
 ## Usage
 
