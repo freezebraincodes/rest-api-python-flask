@@ -43,6 +43,7 @@ $ deactivate
 ## Sub Project Directories
 - `first-rest-api`: A basic REST api for a store in demonstrating GET/POST  
 - `item-list-rest-api`: Demonstrating the use of `virtualenv` and basic authentication with json web token (jwt)
+- `item-list-with-sqlite-rest-api`: Demonstrating the api with sqlite database
 
 ## Usage
 
@@ -53,7 +54,7 @@ Go to sub directory and run the program.
 python3 app.py
 ```
 
-####  `item-list-rest-api`: 
+####  `item-list-rest-api` and `item-list-with-sqlite-rest-api`: 
 Go to sub directory and run the program.
 
 ```bash
@@ -73,4 +74,6 @@ deactivate
 ## References
 - [Python](https://www.python.org/)
 - [Flask](http://flask.pocoo.org/)
+- [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/)
+- [Flask-JWT](https://pythonhosted.org/Flask-JWT/)
 - [Udemy](https://www.udemy.com/rest-api-flask-and-python/)
