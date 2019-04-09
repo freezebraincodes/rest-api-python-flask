@@ -40,10 +40,17 @@ pip freeze
 $ deactivate
 ```
 
+For `item-list-with-flaskalchemy`:
+Flask-SQLAlchemy
+```bash
+$ pip install Flask-SQLAlchemy
+```
+
 ## Sub Project Directories
 - `first-rest-api`: A basic REST api for a store in demonstrating GET/POST  
 - `item-list-rest-api`: Demonstrating the use of `virtualenv` and basic authentication with json web token (jwt)
 - `item-list-with-sqlite-rest-api`: Demonstrating the api with sqlite database
+- `item-list-with-flaskalchemy`: Demonstrating api database storage and SQLAlchemy
 
 ## Usage
 
@@ -70,6 +77,12 @@ $ python app.py
 # deactivate the venv
 deactivate
 ```
+
+To create the sqlite3 database and setup tables:
+```bash
+python create_tables.py
+```
+
 
 ## References
 - [Python](https://www.python.org/)
